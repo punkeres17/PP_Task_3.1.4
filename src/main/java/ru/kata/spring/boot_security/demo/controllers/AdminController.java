@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("api/admin")
+@RequestMapping("/api/admin")
 public class AdminController {
 
     private final UserService userService;

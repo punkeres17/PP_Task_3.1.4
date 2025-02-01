@@ -53,7 +53,7 @@ public class Role implements GrantedAuthority {
         this.id = id;
     }
 
-    String getRole() {
+    public String getRole() {
         return name;
     }
 
